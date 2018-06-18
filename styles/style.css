@@ -143,7 +143,48 @@
 
         a:active {
             color: red;
+        } 
+
+        aside h3#preface-link {
+            text-align: center;
+            margin-top: 50px;
+            border: 1px groove grey;
+            color: #ff0505;
+            border-radius: 25px;
+            background: #ffffff;
+            background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+            background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+            background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
         }
+
+        aside a:hover {
+            text-decoration: none;
+        }
+
+        /* #glow {
+            -webkit-transition: 0.5s ease-in-out;
+            -moz-transition: 0.5s ease-in-out;
+            -ms-transition: 0.5s ease-in-out;
+            -o-transition: 0.5s ease-in-out;
+            transition: 0.5s ease-in-out;
+            -webkit-text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+            -moz-text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+            -ms-text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+            -o-text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+            text-shadow: 0 0 0 transparent, 0 0 0 transparent;
+            color: rgba(0, 0, 0, 0.1);
+            overflow: visible;
+          } */
+
+          #glow {
+            color: white;
+            -webkit-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+            -moz-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+            -ms-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+            -o-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+            text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+          }
 
         blockquote {
             font-weight: bold;
