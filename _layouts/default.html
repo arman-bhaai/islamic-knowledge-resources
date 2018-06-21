@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Islamic Knowledge Resources</title>
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/normalize.css">
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/animate.css">
-	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/style.css">
-	<link href="https://fonts.maateen.me/charukola-ultra-light/font.css" rel="stylesheet">
-
-</head>
-<body>
-	<div id="wrapper">
-		<header>
-			<h1 id="header-text">Islamic Knowledge Resources</h1>
-			<div id="header-description">
-				<h3><span>Want to acquire some deep Knowledge about ISLAM???</span><br><span>Then this site is for You...</span></h3>
-			</div>
-		</header>
+{% include head.html %}
+{% include header.html %}
 		<div id="tableContainer">
 			<div id="tableRow">
 				{% include sidebar.html %}	
@@ -33,7 +17,7 @@
 			</div>
 		</div>
 
-        <footer><h3>Designed by - "#একজন_হিদায়াত_অনুসন্ধানী"</h3></footer>
+        {% include footer.html %}
 
     </div>
 </body>
