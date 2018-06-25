@@ -2,3 +2,14 @@
 layout: default-page
 title: Zakir Naik Lectures
 ---
+<ol>
+    {% for i in site.data.zakir-naik-lectures %}
+        <li>
+            <p>{{i.title}}</p>
+            <ul>
+                <li><a href="{{i.url-en}}" target="_blank" alt="{{i.title}}">{{i.text-en}}</a></li>
+                <li><a href="{{i.url-bn}}" target="_blank" alt="{{i.title}}">{{i.text-bn}}</a></li>
+            </ul>
+        </li>
+    {% endfor %}
+</ol>
