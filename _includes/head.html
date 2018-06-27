@@ -5,4 +5,27 @@
 	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/styles/style.css">
 	<link href="https://fonts.maateen.me/bangla/font.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				var rightJQ = {
+					init: function(){
+					$('.rightJQ').css({
+						overflow: 'hidden'
+					});
+					rightJQ.loop();
+					},
+					loop: function(){
+					$('.rightJQ div').css({
+						position: 'relative',
+						right: '-100%'
+					}).animate({
+						right: '100%'
+					}, 15000, 'linear' );
+					setTimeout(rightJQ.loop, 15010);
+					}
+				};
+				rightJQ.init();
+			});
+		</script>
 </head>
