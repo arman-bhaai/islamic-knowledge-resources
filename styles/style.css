@@ -134,9 +134,21 @@
         }
         
         div#content-text {
+            padding: 22px;
+        }
+        
+        div#content-text ul li p {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        div#content-text ol li p {
+            font-weight: bold;
+        }
+
+        .bangla-text {
             font-family: 'Bangla', Arial, sans-serif !important;
             font-size: 1.5em;
-            padding: 22px;
         }
 
         div#content-text span {
