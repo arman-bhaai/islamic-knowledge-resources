@@ -169,7 +169,13 @@ div#content-text ol li p {
     font-size: 1.5em;
 }
 
-div#content-text span {
+.arabic-text {
+    font-family: 'Amiri', serif;
+    text-align: center;
+    direction: rtl;
+}
+
+div#content-text span#date {
     font-size: .8em;
     font-weight: bolder;
     border-bottom: 3px solid #424242;
