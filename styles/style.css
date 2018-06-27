@@ -116,6 +116,11 @@ div#sidebar-header h2 {
     border-bottom: 2px dashed #8a8282;
 }
 
+div#glow-text {
+    border-bottom: 2px dashed #8a8282;
+    margin-bottom: 50px;
+}
+
 /* SECONDARY NAVIGATION STARTS */
 
 div#secondary-nav ul li a {
