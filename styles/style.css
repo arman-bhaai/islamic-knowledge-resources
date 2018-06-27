@@ -116,6 +116,20 @@ div#sidebar-header h2 {
     border-bottom: 2px dashed #8a8282;
 }
 
+/* SECONDARY NAVIGATION STARTS */
+
+div#secondary-nav ul li a {
+    font-weight: bold;
+    font-size: 1.28em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div#secondary-nav {
+    border: 2px dashed #2f2f2f;
+}
+
+/* SECONDARY NAVIGATION ENDS */
+
 section	{
     background-color: #FFFFFF;
     /* width: 69%; */

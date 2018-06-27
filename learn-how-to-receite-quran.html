@@ -2,10 +2,17 @@
 layout: default-page
 title: Learn How to Recite Qur'an
 ---
+<div id="secondary-nav">
+    <ul>
+        {% for k in site.data.learn-how-to-recite-quran.info %}
+        <li><a href="#{{k.id-url}}">{{k.title}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
 <ul>
     {% for i in site.data.learn-how-to-recite-quran.info %}
         <li>
-            <p>{{i.title}}</p>
+            <p id="{{i.id-url}}">{{i.title}}</p>
             <ol>
                 {% if i.playlist %}
                     <p><a href="{{i.playlist}}" target="_blank" alt="">Full Playlist</a></p>

@@ -1,6 +1,7 @@
 info:
   - imam-raza:
     title: Nuraniyah by Imam Raza (English)
+    id-url: imam-raza
     playlist: https://www.youtube.com/watch?v=Dl6g_zDZ_v0&list=PL6qzEglvHszcBGcMjE_N0YNF-bkkd93eM
     url-list:
       - text: Nuraniyah - Introduction and guidelines  
@@ -88,6 +89,7 @@ info:
 
   - siddiqur-rahman:
     title: Tajweed Rules by Siddiqur Rahman (Bangla)
+    id-url: siddiqur-rahman
     playlist: https://www.youtube.com/watch?v=91FRGeDxjlE&list=PLVuW1ITWYFXp8ufdAjOUhX2HCPIZiiEGN
     url-list:
       - text: Makhraaj 1
