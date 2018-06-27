@@ -1,26 +1,35 @@
-{% include head.html %}
-{% include header.html %}
-		<div id="tableContainer">
-			<div id="tableRow">
-				{% include sidebar.html %}	
-                
+<!DOCTYPE html>
+<html>
+		{% include head.html %}
+	<body>
+		<div id="wrapper">
+			{% include header.html %}
+			<div id="main-content" class="clearfix">
+				{% include sidebar.html %}	            
 				<section>
 					<div id="content-header">
 						<h2>{% if page.title %}{{page.title}}{% endif %}</h2>
 					</div>
 					<div id="content-text">
-
-				{{content}}
+				
+					{{content}}
 				
 					</div>
 				</section>
 			</div>
+				{% include footer.html %}
+		</div>
+	</body>
+</html>
+
+
+<!-- 
+		<div id="tableContainer">
 		</div>
 
-        {% include footer.html %}
 
     </div>
 </body>
-</html>
+</html> -->
         
         
