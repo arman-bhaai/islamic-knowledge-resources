@@ -27,6 +27,35 @@ header {
     border-top: 5px solid #424242;
 }
 
+
+
+header a {
+text-decoration: none;
+}
+
+/* unvisited link */
+header a:link {
+  color: black;
+}
+
+/* visited link */
+header a:visited {
+  color: black;
+}
+
+/* mouse over link */
+header a:hover {
+  color: green;
+  font-size:2.05em
+}
+
+/* selected link */
+header a:active {
+  color: black;
+}
+
+
+
 h1#header-text {
     font-family: cursive;
     font-size: 2em;
